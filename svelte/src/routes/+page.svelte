@@ -1,31 +1,30 @@
-import './App.css';
-import "@ui5/webcomponents/dist/Icon";
-import "@ui5/webcomponents/dist/Title";
-import "@ui5/webcomponents/dist/Input";
-import "@ui5/webcomponents/dist/Link";
+<script>
+	import "@ui5/webcomponents/dist/Icon";
+	import "@ui5/webcomponents/dist/Title";
+	import "@ui5/webcomponents/dist/Input";
+	import "@ui5/webcomponents/dist/Link";
 
 
 
-import "@ui5/webcomponents-fiori/dist/ShellBar";
-import "@ui5/webcomponents-fiori/dist/SideNavigation";
-import "@ui5/webcomponents-fiori/dist/SideNavigationItem";
-import "@ui5/webcomponents-fiori/dist/SideNavigationSubItem";
-import "@ui5/webcomponents-icons/dist/person-placeholder"
+	import "@ui5/webcomponents-fiori/dist/ShellBar";
+	import "@ui5/webcomponents-fiori/dist/SideNavigation";
+	import "@ui5/webcomponents-fiori/dist/SideNavigationItem";
+	import "@ui5/webcomponents-fiori/dist/SideNavigationSubItem";
+	import "@ui5/webcomponents-icons/dist/person-placeholder"
 
-import "@ui5/webcomponents-icons/dist/search";
-import "@ui5/webcomponents-icons/dist/home";
-import "@ui5/webcomponents-icons/dist/play";
-import "@ui5/webcomponents-icons/dist/slim-arrow-right";
+	import "@ui5/webcomponents-icons/dist/search";
+	import "@ui5/webcomponents-icons/dist/home";
+	import "@ui5/webcomponents-icons/dist/play";
+	import "@ui5/webcomponents-icons/dist/slim-arrow-right";
 
-import toolLayoutStyles from "@ui5/webcomponents-fiori/dist/styles/ToolLayout.module.css"
-import linkStyles from "@ui5/webcomponents/dist/styles/Link.module.css"
-import inputStyles from "@ui5/webcomponents/dist/styles/Input.module.css"
+	import toolLayoutStyles from "@ui5/webcomponents-fiori/dist/styles/ToolLayout.module.css"
+	import linkStyles from "@ui5/webcomponents/dist/styles/Link.module.css"
+	import inputStyles from "@ui5/webcomponents/dist/styles/Input.module.css"
+</script>
 
-function App() {
-  return (
-    <div className={toolLayoutStyles.toolLayout}>
+   <div class={toolLayoutStyles.toolLayout}>
       <ui5-shellbar
-      class={toolLayoutStyles.shellBar}
+        class={toolLayoutStyles.shellBar}
         primary-title="Product Name"
         secondary-title="Second Title"
         notifications-count="1"
@@ -51,7 +50,7 @@ function App() {
         <ui5-side-navigation-item slot="fixedItems" text="Useful Links" icon="chain-link"></ui5-side-navigation-item>
         <ui5-side-navigation-item slot="fixedItems" text="History" icon="history"></ui5-side-navigation-item>
       </ui5-side-navigation>
-      <div className={toolLayoutStyles.content}>
+      <div class={toolLayoutStyles.content}>
         <ui5-title level="H3">Input</ui5-title>
         <ui5-input>
           <ui5-icon name="search" slot="icon" class={inputStyles.inputIcon}></ui5-icon>
@@ -112,7 +111,3 @@ function App() {
         </ui5-link>
       </div>
     </div>
-  );
-}
-
-export default App;
