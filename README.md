@@ -16,3 +16,9 @@ To test this environment:
 2. Run `npm i` command
 3. Run `npm link @ui5/webcomponents @ui5/webcomponents-fiori` command
 4. Run `npm run dev -- --open`
+
+## Test VueJS App
+1. Open `vue-project` folder
+2. Run `npm i` command
+3. Run `npm link @ui5/webcomponents @ui5/webcomponents-fiori` command
+4. Run `npm run dev`

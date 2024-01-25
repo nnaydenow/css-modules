@@ -4,8 +4,6 @@ import "@ui5/webcomponents/dist/Title";
 import "@ui5/webcomponents/dist/Input";
 import "@ui5/webcomponents/dist/Link";
 
-
-
 import "@ui5/webcomponents-fiori/dist/ShellBar";
 import "@ui5/webcomponents-fiori/dist/SideNavigation";
 import "@ui5/webcomponents-fiori/dist/SideNavigationItem";
